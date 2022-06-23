@@ -1,0 +1,4 @@
+<launch>
+    <include file = "$(find rosserial_server)/launch/socket.launch"/>
+    <node pkg="arm_srv" type="arm_server" name="arm_server"/>
+</launch>

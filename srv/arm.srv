@@ -1,0 +1,5 @@
+int64 arm_request
+---
+int64 arm_position
+int64 arm_moving_state
+int64 arm_docking_state
